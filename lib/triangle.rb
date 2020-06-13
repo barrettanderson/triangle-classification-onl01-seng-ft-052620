@@ -38,6 +38,10 @@
 #
 # end
 
+class TriangleError < StandardError
+  # triangle error code
+end
+
 class Triangle
   def initialize(side_1,side_2,side_3)
     @side_1 = side_1
@@ -62,6 +66,4 @@ class Triangle
   end
 end
 
-class TriangleError < StandardError
-  # triangle error code
-end
+
