@@ -13,6 +13,8 @@ class Triangle
       return :equilateral
     elsif @triangle_sides.uniq.length == 2
       return :isosceles
+    elsif @triangle_sides[0] == 0
+      raise TriangleError
     else
       return :scalene
     end
