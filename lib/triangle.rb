@@ -8,6 +8,10 @@ class Triangle
     @triangle_sides << side_3
   end
 
+  def valid?
+
+  end
+
   def kind
     if @triangle_sides.uniq.length == 1
       return :equilateral
