@@ -5,8 +5,12 @@ class Triangle
 
   end
 
-  class TriangleError < StandardError
+  def kind
 
   end
+
+  # class TriangleError < StandardError
+  #
+  # end
 
 end
